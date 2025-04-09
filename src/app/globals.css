@@ -1,11 +1,13 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #2b1887;
+  --foreground: #ededed;
 }
 
 @theme inline {
+  --color-card: #d5ccff;
+  --color-task: #f4f2ff;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
