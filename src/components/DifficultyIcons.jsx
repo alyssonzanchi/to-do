@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
 const colorIcons = {
-  Fácil: '/icons/corner-blue.png',
-  Médio: '/icons/corner-yellow.png',
-  Difícil: '/icons/corner-red.png'
+  Baixa: '/icons/corner-blue.png',
+  Média: '/icons/corner-yellow.png',
+  Alta: '/icons/corner-red.png'
 };
 
 export default function DifficultyIcons({ priority, difficulty }) {
@@ -17,7 +17,7 @@ export default function DifficultyIcons({ priority, difficulty }) {
   const activeIcon = colorIcons[difficulty] || '/icons/corner-default.png';
 
   return (
-    <div className="flex gap-1 items-center">
+    <div className="flex gap-1 mt-2.5">
       {[0, 1, 2].map((index) => (
         <Image
           key={index}

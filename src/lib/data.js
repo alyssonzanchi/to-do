@@ -13,7 +13,7 @@ const data = [
   },
   {
     title: 'Organizar documentos da gaveta',
-    difficulty: 'Fácil',
+    difficulty: 'Baixa',
     priority: 'Baixa',
     status: 'Completo'
   },
@@ -25,7 +25,7 @@ const data = [
   },
   {
     title: 'Fazer backup do computador',
-    difficulty: 'Fácil',
+    difficulty: 'Baixa',
     priority: 'Média',
     status: 'Completo'
   }

@@ -8,7 +8,7 @@ const taskSchema = new mongoose.Schema({
 
   difficulty: {
     type: String,
-    enum: ['Fácil', 'Média', 'Alta'],
+    enum: ['Baixa', 'Média', 'Alta'],
     default: 'Média'
   },
   priority: {

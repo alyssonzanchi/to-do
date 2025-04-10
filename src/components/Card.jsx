@@ -11,10 +11,10 @@ export default async function Card({ status, tasks }) {
   const icon = statusIcons[status];
 
   return (
-    <div className="bg-card rounded-3xl p-6 w-[560px]">
-      <div className="flex items-center gap-2 mb-6">
+    <div className="bg-card rounded-2xl w-[560px]">
+      <div className="flex items-center p-6 gap-2">
         <span className="text-background">{icon}</span>
-        <h2 className="text-2xl font-semibold text-background">{status}</h2>
+        <h2 className="text-2xl font-bold text-background">{status}</h2>
       </div>
       <div>
         {tasks.map((task, index) => (
