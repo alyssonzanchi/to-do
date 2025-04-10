@@ -6,7 +6,7 @@ const colorIcons = {
   Difícil: '/icons/corner-red.png'
 };
 
-export default function DifficultyIcons({ priority = 'Baixa', difficulty = 'Fácil' }) {
+export default function DifficultyIcons({ priority, difficulty }) {
   const priorityMap = {
     Baixa: 1,
     Média: 2,
@@ -29,4 +29,4 @@ export default function DifficultyIcons({ priority = 'Baixa', difficulty = 'Fác
       ))}
     </div>
   );
-};
+}
