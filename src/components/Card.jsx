@@ -4,7 +4,7 @@ import CardTask from '@/components/CardTask';
 const statusIcons = {
   'A fazer': <ListTodo />,
   'Em andamento': <Clock />,
-  'Completo': <Check />
+  Completo: <Check />
 };
 
 export default async function Card({ status, tasks }) {
@@ -23,6 +23,8 @@ export default async function Card({ status, tasks }) {
             title={task.title}
             priority={task.priority}
             difficulty={task.difficulty}
+            status={task.status}
+            id={task.id}
           />
         ))}
       </div>

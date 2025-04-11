@@ -17,7 +17,7 @@ export default function DifficultyIcons({ priority, difficulty }) {
   const activeIcon = colorIcons[difficulty] || '/icons/corner-default.png';
 
   return (
-    <div className="flex gap-1 mt-2.5">
+    <div className="flex gap-1">
       {[0, 1, 2].map((index) => (
         <Image
           key={index}
